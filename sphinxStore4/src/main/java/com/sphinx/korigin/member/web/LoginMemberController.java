@@ -84,7 +84,7 @@ public class LoginMemberController implements ApplicationContextAware {
 				}
 			}
 		}
-		RedirectView view = new RedirectView("/Sphinx_Store");
+		RedirectView view = new RedirectView("/korigin");
 		view.setExposeModelAttributes(false);
 		m.setView(view);
 		return m;
